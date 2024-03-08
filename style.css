@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hyaXN0bWFzfGVufDB8fDB8fHww);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #73251D;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 200px;
+}
+
+.timer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+
+}
+
+h1 {
+    color: #73251D;
+    font-size: 3rem;
+    font-style: oblique;
+    margin-bottom: 50px;
+    /* color: white; */
+    /* Text color */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #3C896D;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    border: 2px solid #E89999;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
